@@ -6,7 +6,17 @@ We presented SolidityQL, a key component of the CyScout automated cybersecurity 
 
 ## Instructions
 
-Run the install script to setup everything you need. 
+Run the install script to get everything you need ready to go. The script will generate a folder for the workshop and clone and setup all necessary dependencies, including the [CyScout official repo](https://github.com/CoinFabrik/CyScout/tree/main).
+
+Afterwards, install the CodeQL extension for Visual Studio Code.
+
+To generate test databases, run
+```bash
+cd avalanche_workshop/codeql/solidity/solidity-test/
+bash create-dbs.sh
+```
+
+Then, use the CodeQL extension to select a database and a query to run.
 
 ## About CoinFabrik
 
